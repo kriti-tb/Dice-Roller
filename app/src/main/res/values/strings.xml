@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="roll_label">Roll</string>
+    <string name="about_creator">About creator</string>
+    <string name="kriti_tyagi">Kriti Tyagi</string>
+    <string name="bio">Hey stranger! so you have landed on one of my stupid android applications. Well everything
+    starts small</string>
+    <string name="done">Done</string>
+</resources>

@@ -18,20 +18,20 @@
         style="@style/NameStyle" />
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
 
         app:srcCompat="@drawable/badge"
-        tools:srcCompat="@tools:sample/avatars" />
+         />
 
     <EditText
         android:id="@+id/Nickname_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:hint="Nickname"
+        android:hint="Enter Nickname"
         style="@style/NameStyle"
         android:textAlignment="center"
         android:gravity="center_horizontal" />
@@ -46,11 +46,23 @@
         android:fontFamily="@font/roboto"/>
 
 
+    <TextView
+        android:id="@+id/nickname_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/NameStyle"
+        android:textAlignment="center"
+        android:text=""
+        android:visibility="gone"
+        android:textSize="30dp"
+
+        android:gravity="center_horizontal" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/bioscroll">
+        android:id="@+id/bioscroll"
+        >
 
     <TextView
         android:layout_width="wrap_content"
@@ -59,6 +71,7 @@
         style="@style/NameStyle"
         android:text="@string/bio"
         android:lineSpacingMultiplier="1.2"
+        android:textSize="20dp"
         />
     </ScrollView>
 </LinearLayout>
